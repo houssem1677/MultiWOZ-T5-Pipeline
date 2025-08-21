@@ -5,9 +5,9 @@ This repository provides a pipeline for processing and augmenting dialogue data 
 ## Repository Structure
 
 - **Directories**:
-  - `train/`: Training data (JSON/JSONL files) from MultiWOZ.
-  - `dev/`: Development/validation data (JSON/JSONL files) from MultiWOZ.
-  - `test/`: Test data (JSON/JSONL files) from MultiWOZ.
+  - `train/`: Training data (JSON files) from MultiWOZ.
+  - `dev/`: Development/validation data (JSON files) from MultiWOZ.
+  - `test/`: Test data (JSON files) from MultiWOZ.
 
 - **Scripts**:
   - `convert_for_t5.py`: Converts MultiWOZ JSON dialogues into JSONL format for T5 training.
@@ -31,7 +31,7 @@ This repository provides a pipeline for processing and augmenting dialogue data 
 1. Clone the repository:
    ```bash
    git clone https://github.com/houssem1677/MultiWOZ-T5-Pipeline.git
-   cd your-repo-name
+   cd MultiWOZ-T5-Pipeline
    ```
 
 2. Verify Python version:
@@ -137,10 +137,8 @@ JSONL files contain:
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-## License
 
-MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
-Open an issue on GitHub or contact [your-email@example.com](mailto:your-email@example.com) for questions.
+Open an issue on GitHub or contact [your-email@example.com](mohamedhoussem45@gmail.com) for questions.
